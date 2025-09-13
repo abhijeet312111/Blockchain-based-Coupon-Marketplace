@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-based-Coupon-Marketplace"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x7fc71a248579b55d6d6ae5a15c1487940b4673545005f746ae6570558354c4a0"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
